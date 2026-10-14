@@ -3,7 +3,7 @@
 Este repositório contém uma solução completa para detecção de transações fraudulentas em cartões de crédito, desenvolvida como projeto prático de Machine Learning.
 
 ## Entendimento do Problema e Desbalanceamento
-O dataset de transações possui um desbalanceamento severo (~0,28% de fraudes)[cite: 5]. Em problemas com esse perfil, **a Acurácia é uma métrica enganosa**: um modelo simplista que previsse todas as transações como legítimas obteria mais de 99,7% de acurácia, mas falharia em capturar 100% dos golpes.
+O dataset de transações possui um desbalanceamento severo. Em problemas com esse perfil, **a Acurácia é uma métrica enganosa**: um modelo simplista que previsse todas as transações como legítimas obteria mais de 99,7% de acurácia, mas falharia em capturar 100% dos golpes.
 
 Por esse motivo, o pipeline foi otimizado focando no **Recall** (capturar o máximo de fraudes reais) e na **Precisão** (evitar bloquear clientes legítimos por engano).
 
